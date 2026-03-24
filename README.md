@@ -16,7 +16,7 @@ The goal of this project is to investigate the relationship between surface temp
 
 ## Results 
 ![Madrid Final Geovisualization](results/madrid-geovisualization.png)
-![Mean Values of Built-up Area and Surface Temperature Layers](results/maean-values.png)
+![Mean Values of Built-up Area and Surface Temperature Layers](results/mean-values.png)
 ![Surface Temperature vs Built-up Area in Madrid Scatter Plots](results/surfacetemp-vs-builtuparea-plot.png)
 
 ## Live GEE Script
