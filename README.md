@@ -19,5 +19,8 @@ The goal of this project is to investigate the relationship between surface temp
 ![Mean Values of Built-up Area and Surface Temperature Layers](results/mean-values.png)
 ![Surface Temperature vs Built-up Area in Madrid Scatter Plots](results/surfacetemp-vs-builtuparea-plot.png)
 
+After analysis, we can see that Madrid has a slope of 0.207, making it almost flat. This suggests that higher built-up areas do not cause higher surface temperatures in Madrid. However, this result does not accurately represent the relationship. This is due to outlier zone one. Zone one has the highest built-up percentage out of all zones (73.07%), but the lowest surface temperature (37.6°C).  The rest of the data points suggest that there is a linear relationship between surface temperature and built-up areas. If we take zone one off the graph,we obtain a new slope of 6.5, backing up this argument. Additionally, we obtain a higher R², indicating that the regression line fits the data better. However, it is also important to note that there aren't big jumps between temperatures, suggesting that although built-up areas do have an impact on surface temperatures, it isn’t as strong as can be witnessed in other cities and other factors may be more relevant.   
+
+
 ## Live GEE Script
-[Open the Google Earth Engine script here](https://code.earthengine.google.com/7671ca8ea04cc0816d6e3dacc1dcacb2)
+[Click here for the Google Earth Engine script](https://code.earthengine.google.com/7671ca8ea04cc0816d6e3dacc1dcacb2)
